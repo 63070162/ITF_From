@@ -7,7 +7,7 @@
 	$name = $_POST['name'];
 	$comment = $_POST['comment'];
 	$link = $_POST['link'];
-	$sql = "INSERT INTO guestbook (Name, Comment, Link) VALUES ('$name', '$comment', '$link')";
+	$sql = "INSERT INTO guestbook (name, comment, link) VALUES ('$name', '$comment', '$link')";
 ?>
 <!DOCTYPE html>
 <html>
